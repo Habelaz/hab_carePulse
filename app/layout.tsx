@@ -22,7 +22,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "CarePulse",
-  description: "appointment scheduling ",
+  description: "appointment scheduling app for health centors",
 };
 
 export default function RootLayout({
