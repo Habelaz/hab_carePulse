@@ -37,7 +37,7 @@ const LoginModal = () => {
   }, [showMessage, countdown]);
 
   return (
-    <Dialog open={open} onOpenChange={setOpen}>
+    <Dialog open={open} onOpenChange={closeModal} >
       <DialogContent className="shad-dialog sm:max-w-md">
         <DialogHeader>
           {showMessage !== true && <DialogTitle className="text-center text-3xl mb-6">Welcome Back</DialogTitle>}
